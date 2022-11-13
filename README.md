@@ -1,2 +1,2 @@
 # CV
-www.moncv.com
+https://actarus7.github.io/CV/
