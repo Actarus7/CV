@@ -1,11 +1,62 @@
 @font-face {
-    font-family: 'advent_proregular';
-    src: url('adventpro-regular-webfont.eot');
-    src: url('adventpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('adventpro-regular-webfont.woff2') format('woff2'),
-         url('adventpro-regular-webfont.woff') format('woff'),
-         url('adventpro-regular-webfont.ttf') format('truetype'),
-         url('adventpro-regular-webfont.svg#advent_proregular') format('svg');
+    font-family: 'roboto';
+    src: url('/roboto/Roboto-Regular.ttf');
     font-weight: normal;
     font-style: normal;
+}
+
+html {
+    font-family: 'roboto';
+    color: white;
+    background-image: url('/images/fond-pelouse.jpg');
+}
+
+.row {
+    display: flex;
+    margin-top: 5%;
+}
+
+section {
+    display: flex;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+h1, h3 {
+    text-decoration: underline;
+}
+
+#infos {
+    margin-left: 10%;
+}
+#posteCitation {
+    margin-left: 20%;
+}
+#citation {
+    border: 2px solid black;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    background-color: #c926c4;
+    color: black;
+}
+
+article {
+    flex: 3;
+    margin-left: 10%;
+}
+
+aside {
+    flex: 1;
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin-right: 20%;
+    margin-bottom: auto;
+    margin-top: 5%;
 }
